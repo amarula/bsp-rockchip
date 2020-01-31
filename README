@@ -1,6 +1,12 @@
 Rockchip Mainline BSP
 ====================
 
+ROC-RK3399-PC
+-------------
+  Please check the below wiki for more information.
+
+  https://wiki.amarulasolutions.com/bsp/rockchip/rk3399/roc-rk3399-pc.html#distroot
+
 --
 Jagan Teki <jagan@amarulasolutions.com>
 Wed Jan 29 19:24:05 IST 2020
