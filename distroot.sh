@@ -38,7 +38,7 @@ program()
         fail $?
 
 	echo [distroot] program the flash...
-	xzcat roc-rk3399-pc-distroot.img.xz | dd of=/dev/${DEV}
+	xzcat roc-rk3399-pc-distroot.img.xz | dd of=/dev/${DEV} status=progress
         fail $?
         sync
      	fail $?
@@ -51,7 +51,7 @@ program()
 echo [distroot] Started...
 
 echo [distroot] download distroot image...
-wget --no-check-certificate https://bitbucket.org/amarula/distroot/raw/9123872feb25e4fc780c829e3d6470fd1fdb00f9/roc-rk3399-pc-distroot.img.xz
+wget --no-check-certificate https://bitbucket.org/amarula/distroot/raw/8d1c31568f88cf6c16d8500ed4228d2688b2fe5a/roc-rk3399-pc-distroot.img.xz
 fail $?
 
 echo [distroot] try to program the flash...
