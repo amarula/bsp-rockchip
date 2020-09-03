@@ -1,6 +1,14 @@
 Rockchip Mainline BSP
 ====================
 
+ENGICAM PX30.Core
+-----------------
+Please check the below wiki for more information.
+
+https://wiki.amarulasolutions.com/bsp/rockchip/px30/engicam-px30-edimm2.2.html
+https://wiki.amarulasolutions.com/bsp/rockchip/px30/engicam-px30-ctouch2.0.html
+
+
 ROC-RK3399-PC
 -------------
   Please check the below wiki for more information.
@@ -10,3 +18,6 @@ ROC-RK3399-PC
 --
 Jagan Teki <jagan@amarulasolutions.com>
 Wed Jan 29 19:24:05 IST 2020
+
+Suniel Mahesh <sunil@amarulasolutions.com>
+Fri Sep 4 03:48:20 IST 2020
